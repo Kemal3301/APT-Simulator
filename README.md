@@ -26,5 +26,6 @@ APT1 used the commands net start and tasklist to get a listing of the services o
 
 ## Usage
 
-First of all we will run apt1_server.py in server machine. After we will start apt1.py in victim machine.
+First of all we start apt1_server.py in server machine. After we start apt1.py in victim machine.
 
+<img src="https://github.com/anil-yelken/APT-Simulator/blob/main/apt1.jpg">
