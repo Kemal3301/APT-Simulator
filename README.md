@@ -1,5 +1,7 @@
 # APT Simulator
 
+Tested Windows 10
+
 ## Description
 
 Information from Mitre ATT&CK regarding the APT1 group is as follows:
@@ -23,6 +25,10 @@ APT1 used the ipconfig /all command to gather network configuration information.
 APT1 used the net use command to get a listing on network connections.
 
 APT1 used the commands net start and tasklist to get a listing of the services on the system.
+
+## Installation
+
+git clone https://github.com/anil-yelken/APT-Simulator
 
 ## Usage
 
